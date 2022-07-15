@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Med3Med">
+        <meta name="description" content="project1">
+        <title>OKFC ventures</title>
+        <link rel="stylesheet" href="/main.css" type="text/css">
+        <link rel="icon" href="imgs/logo.jpg" type="image/x-icon">
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="project.html">Home</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#reviews">Reviews</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#complaints">Complaints</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <h2>Here you can put in your reviews and complaints</h2>
+            <p>We would love to have your reviews and complaints about our food, time of delivery, behaviour of staff and much more </p>
+            <hr>
+            <article id="reviews">
+                <form action="https://httpsbin.org/get" method="get">
+                    <fieldset>
+                        <legend>Reviews</legend>
+                        <label for="views">Your Review:</label>
+                        <br>
+                        <textarea name="views" id="views" cols="30" rows="10" placeholder="The delivery was amazing"></textarea>
+                    </fieldset>
+                    <br>
+                    <button type="submit" formaction="https://httpsbin.org/post" formmethod="post">Submit</button>
+                    <button type="reset">Reset</button>
+                </form>
+            </article>
+            <hr>
+            <article id="complaints">
+                <form action="https://httpsbin.org/get" method="get">
+                    <fieldset>
+                        <legend>Complaints</legend>
+                        <label for="plaints">Your Complaints:</label>
+                        <br>
+                        <textarea name="plaints" id="plaints" cols="30" rows="10" placeholder="The wrong package was delivered"></textarea>
+                    </fieldset>
+                    <br>
+                    <button type="submit" formaction="https://httpsbin.org/post" formmethod="post">Submit</button>
+                    <button type="reset">Reset</button>
+                </form>
+            </article>
+            <hr>
+        </main>
+
+        <footer>
+            <p>
+                <a href="#">Top</a>
+            </p>
+            <p>
+                &lt;&lt;&copy;<strong><i>OKFC Vents.</i></strong>&gt;&gt;
+            </p>
+        </footer>
+    </body>
+</html>
