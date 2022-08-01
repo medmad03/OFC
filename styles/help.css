@@ -1,0 +1,23 @@
+html{
+    font-size:22px;
+    font-family:'Times New Roman', Times, serif;
+}
+body{
+    background-color:darkred;
+    color:white;
+}
+a{
+    color:bisque;
+}
+a:hover{
+    color:aquamarine;
+}
+a:visited{
+    color:darkkhaki;
+}
+button{
+    color:darkorange;
+}
+button:hover{
+    color:red;
+}

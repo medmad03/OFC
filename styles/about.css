@@ -1,0 +1,16 @@
+html{
+    font:22px;
+}
+body{
+    background-color:chocolate;
+    color:black;
+}
+a{
+    color:bisque;
+}
+a:hover{
+    color:aquamarine;
+}
+a:visited{
+    color:darkkhaki;
+}

@@ -1,17 +1,9 @@
 html{
-    font-size:22px
+    font-size:22px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 body{
-    background-color:cadetblue;
-    color: black;
-}
-a{
-    color: yellowgreen;
-}
-a:hover{
-    color:aquamarine;
-}
-a:visited{
+    background-color:aquamarine;
     color:brown;
 }
 table, tr, th, td, caption{
@@ -25,4 +17,13 @@ button{
 }
 button:hover{
     color:red;
+}
+a{
+    color:bisque;
+}
+a:hover{
+    color:aquamarine;
+}
+a:visited{
+    color:darkolivegreen;
 }
