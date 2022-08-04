@@ -4,6 +4,8 @@ html{
 }
 body{
     background-color:crimson;
+    background-image:url(/imgs/logo.JPG);
+    background-size: contain;
     color:cornsilk;
 }
 table, tr, th, td, caption{

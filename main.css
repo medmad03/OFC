@@ -3,6 +3,8 @@ html{
 }
 body{
     background-color:black;
+    background-image:url(/imgs/logo.JPG);
+    background-size: contain;
     color: gold;
 }
 a{

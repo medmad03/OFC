@@ -4,6 +4,8 @@ html{
 }
 body{
     background-color:aquamarine;
+    background-image:url(/imgs/logo.JPG);
+    background-size: contain;
     color:brown;
 }
 table, tr, th, td, caption{

@@ -3,7 +3,9 @@ html{
 }
 body{
     background-color:chocolate;
-    color:black;
+    background-image:url(/imgs/logo.JPG);
+    background-size: contain;
+    color:goldenrod;
 }
 a{
     color:bisque;

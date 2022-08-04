@@ -4,6 +4,8 @@ html{
 }
 body{
     background-color:darkred;
+    background-image:url(/imgs/logo.JPG);
+    background-size: contain;
     color:white;
 }
 a{
